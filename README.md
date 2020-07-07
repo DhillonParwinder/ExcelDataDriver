@@ -1,6 +1,6 @@
 # Data-driven testing
 
-In a real-world application, this Excel spreadsheet could be provided by the client or the end-user with the business logic encoded within the spreadsheet. (The POI library handles numerical calculations just fine, though it seems to have a bit of trouble with calculations using dates). In this scenario, the Excel spreadsheet becomes part of your acceptance tests, and helps to define your requirements, allows effective test-driven development of the code itself, and also acts as part of your acceptance tests.
+In a real-world application, Excel spreadsheet could be provided by the client or the end-user with the business logic encoded within the spreadsheet. (The POI library handles numerical calculations). In this scenario, the Excel spreadsheet becomes part of your acceptance tests, and helps to define your requirements, allows effective test-driven development of the code itself, and also acts as part of your acceptance tests.
 
 This application program prefrom two tasks:
   * Derive data from Excel Spreadsheet and dispay on your console
@@ -15,12 +15,12 @@ This application program prefrom two tasks:
   The Excel data file is located in a spreadsheet in the 'ExcelDocs' folder.
   
   ## Technology Stack ##
-   JVM : 14.0.1
+   JDK : 14.0.1
    Gradle : 6.5.1
    JUnit : 4.12
    Apache POI : 4.1.2
    APache POI-OOXML :4.1.2
-   OS : Mac OS X 10.15 
+  
    
    
   
