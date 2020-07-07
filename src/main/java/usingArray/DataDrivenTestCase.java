@@ -11,7 +11,7 @@ import java.util.ArrayList;
  */
 
 
-public class TestCaseSample {
+public class DataDrivenTestCase {
     public static void main(String[] args) throws IOException {
 
         /**
@@ -20,7 +20,7 @@ public class TestCaseSample {
          */
 
 
-        dataDriven d = new dataDriven();
+        DataDriveInArray d = new DataDriveInArray();
 
         ArrayList data = d.getData("Add Profile");
         System.out.println(data.get(0));

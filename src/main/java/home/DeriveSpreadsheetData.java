@@ -1,7 +1,9 @@
-package usingArray;
+package home;
 
 import org.apache.poi.ss.usermodel.Cell;
+import org.apache.poi.ss.usermodel.CellType;
 import org.apache.poi.ss.usermodel.Row;
+import org.apache.poi.ss.util.NumberToTextConverter;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
@@ -16,71 +18,79 @@ import java.util.Iterator;
  * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
  * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
-public class dataDriven {
-    public static void main(String[] args) {
-
-    }
+public class DeriveSpreadsheetData {
+    public static void main(String[] args) throws IOException {
 
         /**
          * Identify Columns of testcase by scanning the First row
          *
-         * Once column is idnetifed then scan entire testcase column to identify PURCHASE testcase row
+         * Once column is idnetifed then scan entire testcase column to identify HAPPY testcase row
          *
-         * After you grab purchase testcase row pull all the data of row feed into test
+         * After you grab HAPPY testcase row pull all the data of row feed into test
          * @return
          * @param add_profile
          */
 
-       public ArrayList<String> getData(String add_profile) throws IOException {
+
         ArrayList<String> a = new ArrayList<String>();
+
         // Get excel file using FileInputStream
-        FileInputStream file = new FileInputStream("/Users/apple/Documents/TestData.xlsx");
+        FileInputStream file = new FileInputStream("ExcelDocs/DemoData.xlsx");
 
         // Configure XSSFWorkbook object to access specific workbook
         XSSFWorkbook workbook = new XSSFWorkbook(file);
 
-        // Read sheet1(Student) of the workbook from all sheets
+        // Read sheet1 named Student of the workbook from all sheets
         int sheets = workbook.getNumberOfSheets();
         for(int i=0; i<sheets; i++){
-            if(workbook.getSheetName(i).equalsIgnoreCase("Student")) {
+            if(workbook.getSheetName(i).equalsIgnoreCase("Student")){
                 XSSFSheet sheet = workbook.getSheetAt(i);
 
                 //Identify Columns of testcase by scanning the First row
-                Iterator<Row> rows = sheet.iterator();  // Sheet is collection of rows
+                Iterator<Row> rows = sheet.iterator();
                 Row firstrow = rows.next();
 
                 // scan entire row by read each and every cell
-                Iterator<Cell> cell = firstrow.cellIterator();  // Sheet is collection of cells
-                int k =0;
+                Iterator<Cell> cell = firstrow.cellIterator();
+                int k = 0;
                 int column = 0;
-
-                while (cell.hasNext()){    // hasNext() only checks that whether it has next cell present or not
-                  Cell value = cell.next();   // next() moves control to the next cell
-                   if(value.getStringCellValue().equalsIgnoreCase("TestCases"))
-                   {
+                while (cell.hasNext()){
+                    Cell value = cell.next();
+                    if(value.getStringCellValue().equalsIgnoreCase("Name")){
                         // desired Column Number
-                       column = k;
-                   }
-                   k++;
+                        column = k;
+                    }
+                    k++;
                 }
-                System.out.println(column);
+                System.out.println("Column number : "+ column);
 
                 //Once column is idnetifed then scan entire testcase column to identify PURCHASE testcase row
                 while (rows.hasNext()){
-                   Row r = rows.next();
-                   if(r.getCell(column).getStringCellValue().equalsIgnoreCase("Purchase")){
+                    Row r = rows.next();
+                    if(r.getCell(column).getStringCellValue().equalsIgnoreCase("Happy")){
 
-                       // After you grab purchase testcase row pull all the data of row feed into test
-                       Iterator<Cell> cv = r.cellIterator();
-                       while(cv.hasNext()){
-                          a.add(cv.next().getStringCellValue());
-                       }
-                   }
+                        // After you grab purchase testcase row pull all the data of row feed into test
+                        Iterator<Cell> cv = r.cellIterator();
+                        while(cv.hasNext())
+                        {
+                        Cell c = cv.next();
+
+                        // Access String and Numeric data from the Excel sheet
+
+                        if(c.getCellType()== CellType.STRING)
+                        {
+                            a.add(c.getStringCellValue());
+                        }
+                        else
+                            {
+                                a.add(NumberToTextConverter.toText(c.getNumericCellValue()));
+                            }
+                        }
+                    }
 
                 }
-
+                System.out.println(a);
             }
         }
-            return a;
     }
 }

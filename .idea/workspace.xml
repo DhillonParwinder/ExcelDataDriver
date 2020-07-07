@@ -1,7 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9f87e258-68b2-4e18-9c6d-b5c381012324" name="Default Changelist" comment="" />
+    <list default="true" id="9f87e258-68b2-4e18-9c6d-b5c381012324" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExcelDocs/DemoData.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExcelDocs/TestData.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/dataDriven.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/home/DeriveData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/usingArray/TestCaseSample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/usingArray/dataDriven.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/home/DeriveData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/home/DeriveSpreadsheetData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/usingArray/TestCaseSample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/usingArray/DataDrivenTestCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/usingArray/dataDriven.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/usingArray/DataDriveInArray.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -11,6 +33,40 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="ExcelDataDriver" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="ExcelDataDriver" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="ExcelDataDriver" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -27,9 +83,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ExcelDocs" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="com.intellij.jarRepository.settings.RemoteRepositoriesConfigurable" />
@@ -40,14 +97,28 @@
       <recent name="home" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ExcelDocs" />
       <recent name="$PROJECT_DIR$/src/main/java" />
       <recent name="$PROJECT_DIR$/src/test/java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestCaseSample">
+  <component name="RunManager" selected="Gradle.ExcelDataDriver [build]">
     <configuration name="DataExcel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DataExcel" />
       <module name="ExcelDataDriver.test" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DeriveSpreadsheetData" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="home.DeriveSpreadsheetData" />
+      <module name="ExcelDataDriver.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="home.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -72,19 +143,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="dataDriven" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dataDriven" />
-      <module name="ExcelDataDriver.test" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="ExcelDataDriver [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.ExcelDataDriver [build]" />
+        <item itemvalue="Application.DeriveSpreadsheetData" />
         <item itemvalue="Application.TestCaseSample" />
         <item itemvalue="Application.DataExcel" />
         <item itemvalue="Application.TestSample" />
-        <item itemvalue="Application.dataDriven" />
       </list>
     </recent_temporary>
   </component>
@@ -106,25 +190,33 @@
       <screen x="1280" y="23" width="1920" height="1057" />
     </state>
     <state x="1827" y="191" key="#Project_Structure/1280.23.1920.1057/0.23.1280.777@1280.23.1920.1057" timestamp="1594085481793" />
-    <state width="1852" height="273" key="GridCell.Tab.0.bottom" timestamp="1594085432375">
+    <state width="1852" height="273" key="GridCell.Tab.0.bottom" timestamp="1594088331316">
       <screen x="1280" y="23" width="1920" height="1057" />
     </state>
-    <state width="1852" height="273" key="GridCell.Tab.0.bottom/1280.23.1920.1057/0.23.1280.777@1280.23.1920.1057" timestamp="1594085432375" />
-    <state width="1852" height="273" key="GridCell.Tab.0.center" timestamp="1594085432374">
+    <state width="1852" height="273" key="GridCell.Tab.0.bottom/1280.23.1920.1057/0.23.1280.777@1280.23.1920.1057" timestamp="1594088331316" />
+    <state width="1852" height="273" key="GridCell.Tab.0.center" timestamp="1594088331315">
       <screen x="1280" y="23" width="1920" height="1057" />
     </state>
-    <state width="1852" height="273" key="GridCell.Tab.0.center/1280.23.1920.1057/0.23.1280.777@1280.23.1920.1057" timestamp="1594085432374" />
-    <state width="1852" height="273" key="GridCell.Tab.0.left" timestamp="1594085432373">
+    <state width="1852" height="273" key="GridCell.Tab.0.center/1280.23.1920.1057/0.23.1280.777@1280.23.1920.1057" timestamp="1594088331315" />
+    <state width="1852" height="273" key="GridCell.Tab.0.left" timestamp="1594088331312">
       <screen x="1280" y="23" width="1920" height="1057" />
     </state>
-    <state width="1852" height="273" key="GridCell.Tab.0.left/1280.23.1920.1057/0.23.1280.777@1280.23.1920.1057" timestamp="1594085432373" />
-    <state width="1852" height="273" key="GridCell.Tab.0.right" timestamp="1594085432375">
+    <state width="1852" height="273" key="GridCell.Tab.0.left/1280.23.1920.1057/0.23.1280.777@1280.23.1920.1057" timestamp="1594088331312" />
+    <state width="1852" height="273" key="GridCell.Tab.0.right" timestamp="1594088331315">
       <screen x="1280" y="23" width="1920" height="1057" />
     </state>
-    <state width="1852" height="273" key="GridCell.Tab.0.right/1280.23.1920.1057/0.23.1280.777@1280.23.1920.1057" timestamp="1594085432375" />
+    <state width="1852" height="273" key="GridCell.Tab.0.right/1280.23.1920.1057/0.23.1280.777@1280.23.1920.1057" timestamp="1594088331315" />
+    <state x="1715" y="107" key="SettingsEditor" timestamp="1594088247139">
+      <screen x="1280" y="23" width="1920" height="1057" />
+    </state>
+    <state x="1715" y="107" key="SettingsEditor/1280.23.1920.1057/0.23.1280.777@1280.23.1920.1057" timestamp="1594088247139" />
     <state x="2028" y="311" key="chooseDestDirectoryDialog" timestamp="1594085581907">
       <screen x="1280" y="23" width="1920" height="1057" />
     </state>
     <state x="2028" y="311" key="chooseDestDirectoryDialog/1280.23.1920.1057/0.23.1280.777@1280.23.1920.1057" timestamp="1594085581907" />
+    <state x="1920" y="358" key="com.intellij.ide.util.TipDialog" timestamp="1594086900294">
+      <screen x="1280" y="23" width="1920" height="1057" />
+    </state>
+    <state x="1920" y="358" key="com.intellij.ide.util.TipDialog/1280.23.1920.1057/0.23.1280.777@1280.23.1920.1057" timestamp="1594086900294" />
   </component>
 </project>
